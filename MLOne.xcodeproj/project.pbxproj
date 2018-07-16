@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6647639A1F9E155D0086483B /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 664763991F9E15520086483B /* Resnet50.mlmodel */; };
 		66BBF31A1F9BF5710035CB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF3191F9BF5710035CB4C /* AppDelegate.swift */; };
 		66BBF31C1F9BF5710035CB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF31B1F9BF5710035CB4C /* ViewController.swift */; };
 		66BBF31F1F9BF5710035CB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BBF31D1F9BF5710035CB4C /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		66BBF3241F9BF5710035CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66BBF3221F9BF5710035CB4C /* LaunchScreen.storyboard */; };
 		66BBF32F1F9BF5720035CB4C /* MLOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF32E1F9BF5720035CB4C /* MLOneTests.swift */; };
 		66BBF33A1F9BF5720035CB4C /* MLOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF3391F9BF5720035CB4C /* MLOneUITests.swift */; };
+		66BBF3491F9C00C50035CB4C /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 66BBF3481F9BFF980035CB4C /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		664763991F9E15520086483B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		66BBF3161F9BF5710035CB4C /* MLOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BBF3191F9BF5710035CB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66BBF31B1F9BF5710035CB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		66BBF3351F9BF5720035CB4C /* MLOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66BBF3391F9BF5720035CB4C /* MLOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLOneUITests.swift; sourceTree = "<group>"; };
 		66BBF33B1F9BF5720035CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66BBF3481F9BFF980035CB4C /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		66BBF3181F9BF5710035CB4C /* MLOne */ = {
 			isa = PBXGroup;
 			children = (
+				66BBF3481F9BFF980035CB4C /* SqueezeNet.mlmodel */,
+				664763991F9E15520086483B /* Resnet50.mlmodel */,
 				66BBF3191F9BF5710035CB4C /* AppDelegate.swift */,
 				66BBF31B1F9BF5710035CB4C /* ViewController.swift */,
 				66BBF31D1F9BF5710035CB4C /* Main.storyboard */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66BBF31C1F9BF5710035CB4C /* ViewController.swift in Sources */,
+				66BBF3491F9C00C50035CB4C /* SqueezeNet.mlmodel in Sources */,
+				6647639A1F9E155D0086483B /* Resnet50.mlmodel in Sources */,
 				66BBF31A1F9BF5710035CB4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
